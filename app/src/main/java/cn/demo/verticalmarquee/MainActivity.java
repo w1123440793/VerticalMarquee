@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         viewFlipper = (ViewFlipper) view.findViewById(R.id.homepage_notice_vf);
         frameLayout.addView(view);
         for (int i = 0; i < images.length; i++) {
-            titleList.add("这是第" + i + "个view");
+            titleList.add("这是第" + i + "个广告");
         }
 
         fristLoop();
